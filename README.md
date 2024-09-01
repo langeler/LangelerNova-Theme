@@ -1,4 +1,7 @@
-LangelerNova/
+# SCSS Directory Structure
+
+```plaintext
+scss/
 │
 ├── colors/
 │   ├── _core-colors.scss                    // Core color definitions used across all sections
@@ -28,7 +31,7 @@ LangelerNova/
 │   │   ├── _identifiers-colors.scss         // Colors for identifiers (variables, functions, etc.)
 │   │   ├── _definitions-colors.scss         // Colors for definitions (classes, functions, etc.)
 │   │   ├── _tags-colors.scss                // Colors for markup tags (HTML, XML)
-│   │   ├── _style-colors.scss         // Colors for stylesheet elements (CSS selectors, properties)
+│   │   ├── _stylesheets-colors.scss         // Colors for stylesheet elements (CSS selectors, properties)
 │   │   ├── _markup-colors.scss              // Colors for markup (non-tag elements)
 │   │
 │   ├── languages/
@@ -76,7 +79,7 @@ LangelerNova/
 │   │   ├── _identifiers.scss                // Styles for identifiers (variables, functions, etc.)
 │   │   ├── _definitions.scss                // Styles for definitions (classes, functions, etc.)
 │   │   ├── _tags.scss                       // Styles for markup tags (HTML, XML)
-│   │   ├── _style.scss                // Styles for stylesheet elements (CSS selectors, properties)
+│   │   ├── _stylesheets.scss                // Styles for stylesheet elements (CSS selectors, properties)
 │   │   ├── _markup.scss                     // Styles for markup (non-tag elements)
 │   │
 │   ├── languages/
@@ -99,7 +102,6 @@ LangelerNova/
 │   │       ├── _additional-elements.scss    // Styles for additional PHP elements
 │
 ├── main.scss                                // Main SCSS file that imports all the other SCSS files
-
 Explanation of the Structure
 
 	•	colors/ Directory:
