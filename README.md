@@ -1,7 +1,7 @@
-# SCSS Directory Structure
+# LangelerNova SCSS Directory Structure
 
 ```plaintext
-scss/
+LangelerNova/
 │
 ├── colors/
 │   ├── _core-colors.scss                    // Core color definitions used across all sections
