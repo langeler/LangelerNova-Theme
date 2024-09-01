@@ -1,0 +1,16 @@
+/public/assets/css/
+/public/assets/js/
+/public/assets/images/
+/Storage/Cache/
+/Storage/Logs/
+/Storage/Uploads/
+/node_modules/
+/Tests/Integration/
+/Tests/Unit/
+/vendor/
+
+.env
+.idea/
+.nova/
+.DS_Store
+composer.lock

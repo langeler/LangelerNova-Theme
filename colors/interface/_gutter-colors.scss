@@ -1,0 +1,8 @@
+// _gutter-colors.scss
+@use '../_core-colors' as colors;
+
+// Gutter-specific colors
+$gutter-bg: colors.$black;
+$gutter-text: colors.$dark-grey;
+$gutter-selected-bg: colors.$lighter-black;
+$gutter-selected-text: colors.$light-grey;

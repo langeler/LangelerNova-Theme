@@ -1,0 +1,25 @@
+// _buttons.scss
+@use '../../colors/interface/_button-colors' as colors;
+
+// Button styling
+meta.button {
+	color: colors.$btn-text;
+	background-color: colors.$btn-bg;
+	border-color: colors.$btn-border;
+}
+
+meta.button.disabled {
+	background-color: colors.$btn-disabled-bg;
+}
+
+meta.button.highlighted {
+	background-color: colors.$btn-hover-bg;
+}
+
+meta.button.selected {
+	background-color: colors.$btn-selected-bg;
+}
+
+meta.button.highlighted.selected {
+	background-color: colors.$btn-hover-selected-bg;
+}

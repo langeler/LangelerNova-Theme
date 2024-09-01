@@ -1,0 +1,11 @@
+// main.scss
+
+// Importing interface sections
+@use 'sections/interface/_base';
+@use 'sections/interface/_buttons';
+@use 'sections/interface/_textfields';
+@use 'sections/interface/_document';
+@use 'sections/interface/_gutter';
+
+// Importing terminal sections
+@use 'sections/terminal/_terminal';

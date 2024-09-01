@@ -1,0 +1,6 @@
+// _textfield-colors.scss
+@use '../_core-colors' as colors;
+
+// Textfield-specific colors
+$tf-bg: colors.$light-black;
+$tf-border: colors.$dark-border;

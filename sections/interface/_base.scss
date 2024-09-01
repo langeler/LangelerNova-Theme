@@ -1,0 +1,19 @@
+// _base.scss
+@use '../../colors/interface/_base-colors' as colors;
+
+// Window styling
+meta.window {
+	background-color: colors.$window-bg;
+	border-color: colors.$window-border;
+}
+
+// Titlebar styling
+meta.titlebar {
+	color: colors.$titlebar-text;
+	background-color: colors.$titlebar-bg;
+	border-color: colors.$titlebar-border;
+}
+
+meta.titlebar.inactive {
+	background-color: colors.$titlebar-inactive-bg;
+}

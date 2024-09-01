@@ -1,0 +1,6 @@
+// _document-colors.scss
+@use '../_core-colors' as colors;
+
+// Document (editor) specific colors
+$doc-bg: colors.$black;
+$doc-border: colors.$dark-border;

@@ -1,0 +1,22 @@
+// _terminal-colors.scss
+@use '../_core-colors' as colors;
+
+// Terminal ANSI colors
+$term-black: colors.$black;               // Black
+$term-red: #ff0000;                // Red
+$term-green: #00ff00;              // Green
+$term-yellow: #ffff00;             // Yellow
+$term-blue: #0000ff;               // Blue
+$term-magenta: #ff00ff;            // Magenta
+$term-cyan: #00ffff;               // Cyan
+$term-white: colors.$light-grey;          // White
+
+// Bright ANSI colors
+$term-bright-black: #555555;       // Bright black
+$term-bright-red: #ff5555;         // Bright red
+$term-bright-green: #55ff55;       // Bright green
+$term-bright-yellow: #ffff55;      // Bright yellow
+$term-bright-blue: #5555ff;        // Bright blue
+$term-bright-magenta: #ff55ff;     // Bright magenta
+$term-bright-cyan: #55ffff;        // Bright cyan
+$term-bright-white: colors.$white;        // Bright white

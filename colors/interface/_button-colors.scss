@@ -1,0 +1,11 @@
+// _button-colors.scss
+@use '../_core-colors' as colors;
+
+// Button-specific colors
+$btn-text: colors.$light-grey;
+$btn-bg: colors.$light-black;
+$btn-border: colors.$dark-border;
+$btn-disabled-bg: colors.$dark-grey;
+$btn-hover-bg: lighten(colors.$light-black, 5%);
+$btn-selected-bg: colors.$lighter-black;
+$btn-hover-selected-bg: lighten(colors.$lighter-black, 5%);

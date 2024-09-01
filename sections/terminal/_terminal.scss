@@ -1,0 +1,67 @@
+// _terminal.scss
+@use '../../colors/terminal/_terminal-colors' as colors;
+
+// Terminal styling
+terminal.black {
+	color: colors.$term-black;
+}
+
+terminal.red {
+	color: colors.$term-red;
+}
+
+terminal.green {
+	color: colors.$term-green;
+}
+
+terminal.yellow {
+	color: colors.$term-yellow;
+}
+
+terminal.blue {
+	color: colors.$term-blue;
+}
+
+terminal.magenta {
+	color: colors.$term-magenta;
+}
+
+terminal.cyan {
+	color: colors.$term-cyan;
+}
+
+terminal.white {
+	color: colors.$term-white;
+}
+
+terminal.bright-black {
+	color: colors.$term-bright-black;
+}
+
+terminal.bright-red {
+	color: colors.$term-bright-red;
+}
+
+terminal.bright-green {
+	color: colors.$term-bright-green;
+}
+
+terminal.bright-yellow {
+	color: colors.$term-bright-yellow;
+}
+
+terminal.bright-blue {
+	color: colors.$term-bright-blue;
+}
+
+terminal.bright-magenta {
+	color: colors.$term-bright-magenta;
+}
+
+terminal.bright-cyan {
+	color: colors.$term-bright-cyan;
+}
+
+terminal.bright-white {
+	color: colors.$term-bright-white;
+}

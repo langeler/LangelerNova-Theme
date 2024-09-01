@@ -1,0 +1,8 @@
+// _document.scss
+@use '../../colors/interface/_document-colors' as colors;
+
+// Document styling
+meta.document {
+	background-color: colors.$doc-bg;
+	border-color: colors.$doc-border;
+}

@@ -1,0 +1,13 @@
+// _gutter.scss
+@use '../../colors/interface/_gutter-colors' as colors;
+
+// Gutter styling
+meta.gutter {
+	background-color: colors.$gutter-bg;
+	color: colors.$gutter-text;
+}
+
+meta.gutter.selected {
+	background-color: colors.$gutter-selected-bg;
+	color: colors.$gutter-selected-text;
+}

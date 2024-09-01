@@ -1,0 +1,13 @@
+// _textfields.scss
+@use '../../colors/interface/_textfield-colors' as colors;
+
+// Textfield styling
+meta.textfield {
+	background-color: colors.$tf-bg;
+	border-color: colors.$tf-border;
+}
+
+meta.textfield.active {
+	background-color: colors.$tf-bg;
+	border-color: colors.$tf-border;
+}

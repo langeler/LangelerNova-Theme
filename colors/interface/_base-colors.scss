@@ -1,0 +1,11 @@
+// _base-colors.scss
+@use '../_core-colors' as colors;
+
+// Interface-specific colors
+$window-bg: colors.$black;
+$window-border: colors.$dark-border;
+
+$titlebar-text: colors.$light-grey;
+$titlebar-bg: colors.$light-black;
+$titlebar-border: colors.$dark-border;
+$titlebar-inactive-bg: colors.$lighter-black;
