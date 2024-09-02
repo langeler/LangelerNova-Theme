@@ -141,9 +141,12 @@ LangelerNova/
 │   │   ├── _style.scss                // Styles for stylesheet elements (CSS selectors, properties)
 │   │   ├── _tags.scss                       // Styles for markup tags (HTML, XML)
 │   │   ├── _values.scss                     // Styles for values (numbers, booleans, etc.)
+│   ├── syntax/
 │   │
 │   ├── terminal/
 │   │   ├── _terminal.scss                   // Styles for terminal elements using ANSI color codes
+│   ├── themes/
+│   │   ├── LangelerNova.css                   // The compiled CSS theme file
 │
 ├── main.scss                                // Main SCSS file that imports all the other SCSS files
 ```

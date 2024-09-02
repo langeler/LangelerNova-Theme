@@ -8,9 +8,13 @@
 /Tests/Integration/
 /Tests/Unit/
 /vendor/
+/LangelerNova.novaextension/
+/langeler.novaextension/
 
 .env
 .idea/
 .nova/
 .DS_Store
 composer.lock
+LangelerNova.novaextension
+langeler.novaextension
