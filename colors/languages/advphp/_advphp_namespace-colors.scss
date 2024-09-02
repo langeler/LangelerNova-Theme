@@ -1,10 +1,10 @@
-// scss/colors/languages/advphp/_namespace-colors.scss
-
+// Importing core colors for reuse
 @use '../../_core-colors' as core;
 
-$advphp-namespace-color: core.$syntax-function;
-$advphp-useNamespace-color: core.$syntax-function;
-$advphp-asNamespace-color: core.$syntax-function;
-$advphp-definition-class-color: core.$syntax-function;
-$advphp-definition-interface-color: core.$syntax-function;
-$advphp-definition-trait-color: core.$syntax-function;
+// Advanced PHP Namespace and Related Elements Colors
+$advphp-namespace-color: #c678dd;           // Soft purple for 'namespace' keyword
+$advphp-useNamespace-color: #c678dd;        // Soft purple for 'use' keyword in namespaces
+$advphp-asNamespace-color: #c678dd;         // Soft purple for 'as' keyword in namespaces
+$advphp-definition-class-color: #c678dd;    // Soft purple for class definitions within namespaces
+$advphp-definition-interface-color: #c678dd; // Soft purple for interface definitions within namespaces
+$advphp-definition-trait-color: #c678dd;    // Soft purple for trait definitions within namespaces

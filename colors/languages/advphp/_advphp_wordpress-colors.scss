@@ -1,5 +1,5 @@
-// scss/colors/languages/advphp/_wordpress-colors.scss
-
+// Importing core colors for reuse
 @use '../../_core-colors' as core;
 
-$advphp-wp-keywords-color: core.$syntax-function;
+// Advanced PHP WordPress Keywords Color
+$advphp-wp-keywords-color: #c678dd;  // Soft purple for WordPress keywords

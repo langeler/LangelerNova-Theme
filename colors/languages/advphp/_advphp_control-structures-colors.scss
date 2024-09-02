@@ -1,8 +1,8 @@
-// scss/colors/languages/advphp/_control-structures-colors.scss
-
+// Importing core colors for reuse
 @use '../../_core-colors' as core;
 
-$advphp-control-if-color: core.$syntax-function;
-$advphp-control-else-color: core.$syntax-function;
-$advphp-control-elseif-color: core.$syntax-function;
-$advphp-control-match-color: core.$syntax-function;
+// Advanced PHP Control Structures Colors
+$advphp-control-if-color: #c678dd;     // Soft purple for 'if' control structure
+$advphp-control-else-color: #c678dd;   // Soft purple for 'else' control structure
+$advphp-control-elseif-color: #c678dd; // Soft purple for 'elseif' control structure
+$advphp-control-match-color: #c678dd;  // Soft purple for 'match' control structure

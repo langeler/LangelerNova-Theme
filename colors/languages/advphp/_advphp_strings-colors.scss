@@ -1,9 +1,9 @@
-// scss/colors/languages/advphp/_strings-colors.scss
-
+// Importing core colors for reuse
 @use '../../_core-colors' as core;
 
-$advphp-string-color: core.$syntax-string;
-$advphp-value-string-color: core.$syntax-string;
-$advphp-string-doubleQuote-color: core.$syntax-string;
-$advphp-string-singleQuote-color: core.$syntax-string;
-$advphp-string-backTic-color: core.$syntax-string;
+// Advanced PHP Strings Colors
+$advphp-string-color: #98c379;            // Soft green for general strings
+$advphp-value-string-color: #98c379;      // Soft green for string values
+$advphp-string-doubleQuote-color: #98c379; // Soft green for double-quoted strings
+$advphp-string-singleQuote-color: #98c379; // Soft green for single-quoted strings
+$advphp-string-backTic-color: #98c379;    // Soft green for back-tick strings

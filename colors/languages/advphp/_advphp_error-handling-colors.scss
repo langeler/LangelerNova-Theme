@@ -1,8 +1,8 @@
-// scss/colors/languages/advphp/_error-handling-colors.scss
-
+// Importing core colors for reuse
 @use '../../_core-colors' as core;
 
-$advphp-error-try-color: core.$syntax-function;
-$advphp-error-catch-color: core.$syntax-function;
-$advphp-error-throw-color: core.$syntax-function;
-$advphp-expression-throw-color: core.$syntax-function;
+// Advanced PHP Error Handling Colors
+$advphp-error-try-color: #c678dd;     // Soft purple for 'try' keyword
+$advphp-error-catch-color: #c678dd;   // Soft purple for 'catch' keyword
+$advphp-error-throw-color: #c678dd;   // Soft purple for 'throw' keyword
+$advphp-expression-throw-color: #c678dd; // Soft purple for 'throw' expressions

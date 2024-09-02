@@ -153,6 +153,30 @@ terminal.bright-white {
   color: #e5e5e5;
 }
 
+terminal.matrix-black {
+  color: #0f0f0f;
+}
+
+terminal.matrix-green {
+  color: #00ff00;
+}
+
+terminal.matrix-bright-green {
+  color: #00cc00;
+}
+
+terminal.matrix-dark-green {
+  color: #006400;
+}
+
+terminal.matrix-gray {
+  color: #3a3a3a;
+}
+
+terminal.matrix-white {
+  color: #d0d0d0;
+}
+
 keyword {
   color: #c678dd;
 }
@@ -166,7 +190,7 @@ keyword.condition {
 }
 
 keyword.modifier {
-  color: #e06c75;
+  color: #a85eb5;
 }
 
 keyword.operator {
@@ -174,7 +198,7 @@ keyword.operator {
 }
 
 keyword.self {
-  color: #98c379;
+  color: #d18ae8;
 }
 
 comment {
@@ -262,7 +286,7 @@ identifier.type {
 }
 
 identifier.type.class {
-  color: #c678dd;
+  color: #377cbf;
 }
 
 identifier.type.protocol {
@@ -536,275 +560,275 @@ markup.link {
 advphp.comment.single,
 advphp.comment.multi,
 advphp.comment.shebang {
-  color: #6a9955;
+  color: #7f848e;
 }
 
 advphp.comment.docblock {
-  color: #6a9955;
+  color: #7f848e;
 }
 
 advphp.comment.docblock.tag {
-  color: #d4d4d4;
+  color: #d19a66;
 }
 
 advphp.comment.docblock.type {
-  color: #9cdcfe;
+  color: #56b6c2;
 }
 
 advphp.comment.docblock.var {
-  color: #9cdcfe;
+  color: #56b6c2;
 }
 
 advphp.static.condition {
-  color: #dcdcaa;
+  color: #c678dd;
 }
 
 advphp.static.processor {
-  color: #dcdcaa;
+  color: #c678dd;
 }
 
 advphp.static.declaration {
-  color: #dcdcaa;
+  color: #c678dd;
 }
 
 advphp.static.import {
-  color: #dcdcaa;
+  color: #c678dd;
 }
 
 advphp.static.constant {
-  color: #9cdcfe;
+  color: #56b6c2;
 }
 
 advphp.static.wordOperator {
-  color: #d4d4d4;
+  color: #d19a66;
 }
 
 advphp.static.keyword {
-  color: #dcdcaa;
+  color: #c678dd;
 }
 
 advphp.static.property {
-  color: #dcdcaa;
+  color: #c678dd;
 }
 
 advphp.static.method {
-  color: #dcdcaa;
+  color: #c678dd;
 }
 
 advphp.static.variable {
-  color: #9cdcfe;
+  color: #56b6c2;
 }
 
 advphp.static.binding {
-  color: #d4d4d4;
+  color: #d19a66;
 }
 
 advphp.wp.keywords {
-  color: #dcdcaa;
+  color: #c678dd;
 }
 
 advphp.curl.keywords {
-  color: #dcdcaa;
+  color: #c678dd;
 }
 
 advphp.sql.keywords {
-  color: #dcdcaa;
+  color: #c678dd;
 }
 
 advphp.operator {
-  color: #d4d4d4;
+  color: #d19a66;
 }
 
 advphp.bracket {
-  color: #d4d4d4;
+  color: #d19a66;
 }
 
 advphp.delimiter {
-  color: #d4d4d4;
+  color: #d19a66;
 }
 
 advphp.semicolon {
-  color: #d4d4d4;
+  color: #d19a66;
 }
 
 advphp.operator.arrow {
-  color: #d4d4d4;
+  color: #d19a66;
 }
 
 advphp.operator.nullsafe {
-  color: #d4d4d4;
+  color: #d19a66;
 }
 
 advphp.operator.arithmetic {
-  color: #d4d4d4;
+  color: #d19a66;
 }
 
 advphp.operator.comparison {
-  color: #d4d4d4;
+  color: #d19a66;
 }
 
 advphp.identifier.variable.prefix {
-  color: #9cdcfe;
+  color: #e5c07b;
 }
 
 advphp.identifier.variable.name {
-  color: #9cdcfe;
+  color: #e5c07b;
 }
 
 advphp.identifier.variable.this {
-  color: #9cdcfe;
+  color: #e5c07b;
 }
 
 advphp.identifier.function.keyword {
-  color: #dcdcaa;
+  color: #c678dd;
 }
 
 advphp.identifier.function.name {
-  color: #dcdcaa;
+  color: #61afef;
 }
 
 advphp.identifier.parameter.prefix {
-  color: #9cdcfe;
+  color: #d19a66;
 }
 
 advphp.identifier.parameter.name {
-  color: #9cdcfe;
+  color: #d19a66;
 }
 
 advphp.typehint {
-  color: #9cdcfe;
+  color: #56b6c2;
 }
 
 advphp.typehint.return {
-  color: #9cdcfe;
+  color: #56b6c2;
 }
 
 advphp.identifier.object.name {
-  color: #dcdcaa;
+  color: #c678dd;
 }
 
 advphp.identifier.class {
-  color: #dcdcaa;
+  color: #c678dd;
 }
 
 advphp.definition.namespace {
-  color: #dcdcaa;
+  color: #c678dd;
 }
 
 advphp.definition.useNamespace {
-  color: #dcdcaa;
+  color: #c678dd;
 }
 
 advphp.definition.asNamespace {
-  color: #dcdcaa;
+  color: #c678dd;
 }
 
 advphp.definition.class {
-  color: #dcdcaa;
+  color: #c678dd;
 }
 
 advphp.definition.interface {
-  color: #dcdcaa;
+  color: #c678dd;
 }
 
 advphp.definition.trait {
-  color: #dcdcaa;
+  color: #c678dd;
 }
 
 advphp.string {
-  color: #d69d85;
+  color: #98c379;
 }
 
 advphp.value.string {
-  color: #d69d85;
+  color: #98c379;
 }
 
 advphp.string.doubleQuote {
-  color: #d69d85;
+  color: #98c379;
 }
 
 advphp.string.singleQuote {
-  color: #d69d85;
+  color: #98c379;
 }
 
 advphp.string.backTic {
-  color: #d69d85;
+  color: #98c379;
 }
 
 advphp.control.if {
-  color: #dcdcaa;
+  color: #c678dd;
 }
 
 advphp.control.else {
-  color: #dcdcaa;
+  color: #c678dd;
 }
 
 advphp.control.elseif {
-  color: #dcdcaa;
+  color: #c678dd;
 }
 
 advphp.control.match {
-  color: #dcdcaa;
+  color: #c678dd;
 }
 
 advphp.error.try {
-  color: #dcdcaa;
+  color: #c678dd;
 }
 
 advphp.error.catch {
-  color: #dcdcaa;
+  color: #c678dd;
 }
 
 advphp.error.throw {
-  color: #dcdcaa;
+  color: #c678dd;
 }
 
 advphp.expression.throw {
-  color: #dcdcaa;
+  color: #c678dd;
 }
 
 advphp.constant.magic {
-  color: #dcdcaa;
+  color: #c678dd;
 }
 
 advphp.constant.class {
-  color: #dcdcaa;
+  color: #c678dd;
 }
 
 advphp.keyword.class {
-  color: #dcdcaa;
+  color: #c678dd;
 }
 
 advphp.keyword.function {
-  color: #dcdcaa;
+  color: #c678dd;
 }
 
 advphp.keyword.new {
-  color: #dcdcaa;
+  color: #c678dd;
 }
 
 advphp.argument.named {
-  color: #dcdcaa;
+  color: #d19a66;
 }
 
 advphp.attribute {
-  color: #dcdcaa;
+  color: #e5c07b;
 }
 
 advphp.type.union {
-  color: #9cdcfe;
+  color: #56b6c2;
 }
 
 advphp.constructor.promotion {
-  color: #dcdcaa;
+  color: #e06c75;
 }
 
 advphp.type.mixed {
-  color: #9cdcfe;
+  color: #56b6c2;
 }
 
 advphp.type.static.return {
-  color: #dcdcaa;
+  color: #c678dd;
 }
 
 /*# sourceMappingURL=main.css.map */

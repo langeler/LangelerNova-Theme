@@ -1,5 +1,5 @@
-// scss/colors/languages/advphp/_sql-colors.scss
-
+// Importing core colors for reuse
 @use '../../_core-colors' as core;
 
-$advphp-sql-keywords-color: core.$syntax-function;
+// Advanced PHP SQL Keywords Color
+$advphp-sql-keywords-color: #c678dd;  // Soft purple for SQL keywords

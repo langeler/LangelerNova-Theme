@@ -1,7 +1,7 @@
-// scss/colors/languages/advphp/_variables-colors.scss
-
+// Importing core colors for reuse
 @use '../../_core-colors' as core;
 
-$advphp-variable-prefix-color: core.$syntax-variable;
-$advphp-variable-name-color: core.$syntax-variable;
-$advphp-variable-this-color: core.$syntax-variable;
+// Advanced PHP Variables Colors
+$advphp-variable-prefix-color: #e5c07b;  // Warm yellow for variable prefixes
+$advphp-variable-name-color: #e5c07b;    // Warm yellow for variable names
+$advphp-variable-this-color: #e5c07b;    // Warm yellow for '$this' keyword

@@ -1,21 +1,28 @@
-// scss/colors/terminal/_terminal-colors.scss
-
 @use '../_core-colors' as core;
 
 // 16 Standard ANSI Colors
-$terminal-black: #000000 !default;
-$terminal-red: #cd3131 !default;
-$terminal-green: #0dbc79 !default;
-$terminal-yellow: #e5e510 !default;
-$terminal-blue: #2472c8 !default;
-$terminal-magenta: #bc3fbc !default;
-$terminal-cyan: #11a8cd !default;
-$terminal-white: #e5e5e5 !default;
-$terminal-bright-black: #666666 !default;
-$terminal-bright-red: #f14c4c !default;
-$terminal-bright-green: #23d18b !default;
-$terminal-bright-yellow: #f5f543 !default;
-$terminal-bright-blue: #3b8eea !default;
-$terminal-bright-magenta: #d670d6 !default;
-$terminal-bright-cyan: #29b8db !default;
-$terminal-bright-white: #e5e5e5 !default;
+$terminal-black: #000000 !default;            // Black
+$terminal-red: #cd3131 !default;              // Red
+$terminal-green: #0dbc79 !default;            // Green
+$terminal-yellow: #e5e510 !default;           // Yellow
+$terminal-blue: #2472c8 !default;             // Blue
+$terminal-magenta: #bc3fbc !default;          // Magenta
+$terminal-cyan: #11a8cd !default;             // Cyan
+$terminal-white: #e5e5e5 !default;            // White
+
+$terminal-bright-black: #666666 !default;     // Bright Black (Gray)
+$terminal-bright-red: #f14c4c !default;       // Bright Red
+$terminal-bright-green: #23d18b !default;     // Bright Green
+$terminal-bright-yellow: #f5f543 !default;    // Bright Yellow
+$terminal-bright-blue: #3b8eea !default;      // Bright Blue
+$terminal-bright-magenta: #d670d6 !default;   // Bright Magenta
+$terminal-bright-cyan: #29b8db !default;      // Bright Cyan
+$terminal-bright-white: #e5e5e5 !default;     // Bright White
+
+// Matrix Inspired Colors
+$matrix-black: #0f0f0f !default;              // Very dark black with a greenish hue
+$matrix-green: #00ff00 !default;              // Bright neon green
+$matrix-bright-green: #00cc00 !default;       // Slightly dimmed neon green
+$matrix-dark-green: #006400 !default;         // Dark green (similar to the Matrix code)
+$matrix-gray: #3a3a3a !default;               // Dark gray with a greenish tint
+$matrix-white: #d0d0d0 !default;              // Off-white with a slight green hue

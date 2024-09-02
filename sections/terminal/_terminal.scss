@@ -1,5 +1,3 @@
-// scss/sections/terminal/_terminal.scss
-
 @use '../../colors/terminal/_terminal-colors' as terminal;
 
 // Terminal Styling
@@ -66,4 +64,29 @@ terminal.bright-cyan {
 
 terminal.bright-white {
   color: terminal.$terminal-bright-white;
+}
+
+// Matrix-Inspired Colors
+terminal.matrix-black {
+  color: terminal.$matrix-black;
+}
+
+terminal.matrix-green {
+  color: terminal.$matrix-green;
+}
+
+terminal.matrix-bright-green {
+  color: terminal.$matrix-bright-green;
+}
+
+terminal.matrix-dark-green {
+  color: terminal.$matrix-dark-green;
+}
+
+terminal.matrix-gray {
+  color: terminal.$matrix-gray;
+}
+
+terminal.matrix-white {
+  color: terminal.$matrix-white;
 }

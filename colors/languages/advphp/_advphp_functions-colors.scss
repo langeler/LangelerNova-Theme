@@ -1,10 +1,10 @@
-// scss/colors/languages/advphp/_functions-colors.scss
-
+// Importing core colors for reuse
 @use '../../_core-colors' as core;
 
-$advphp-function-keyword-color: core.$syntax-function;
-$advphp-function-name-color: core.$syntax-function;
-$advphp-parameter-prefix-color: core.$syntax-variable;
-$advphp-parameter-name-color: core.$syntax-variable;
-$typehint-color: core.$syntax-variable;
-$typehint-return-color: core.$syntax-variable;
+// Advanced PHP Functions Colors
+$advphp-function-keyword-color: #c678dd;    // Soft purple for function keywords
+$advphp-function-name-color: #61afef;       // Light blue for function names
+$advphp-parameter-prefix-color: #d19a66;    // Soft orange for parameter prefixes
+$advphp-parameter-name-color: #d19a66;      // Soft orange for parameter names
+$typehint-color: #56b6c2;                   // Cyan for type hints
+$typehint-return-color: #56b6c2;            // Cyan for return type hints

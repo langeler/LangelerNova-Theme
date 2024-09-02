@@ -1,8 +1,8 @@
-// scss/colors/languages/advphp/_comments-colors.scss
-
+// Importing core colors for reuse
 @use '../../_core-colors' as core;
 
-$advphp-comment-color: core.$syntax-comment;
-$advphp-comment-docblock-tag-color: core.$syntax-operator;
-$advphp-comment-docblock-type-color: core.$syntax-variable;
-$advphp-comment-docblock-var-color: core.$syntax-variable;
+// Advanced PHP Comment Colors
+$advphp-comment-color: #7f848e;               // Medium gray for general comments
+$advphp-comment-docblock-tag-color: #d19a66;  // Soft orange for docblock tags
+$advphp-comment-docblock-type-color: #56b6c2; // Cyan for docblock types
+$advphp-comment-docblock-var-color: #56b6c2;  // Cyan for docblock variable names

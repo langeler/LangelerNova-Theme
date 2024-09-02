@@ -1,6 +1,6 @@
-// scss/colors/languages/advphp/_objects-colors.scss
-
+// Importing core colors for reuse
 @use '../../_core-colors' as core;
 
-$advphp-object-name-color: core.$syntax-function;
-$advphp-class-color: core.$syntax-function;
+// Advanced PHP Objects Colors
+$advphp-object-name-color: #c678dd;  // Soft purple for object names
+$advphp-class-color: #c678dd;        // Soft purple for class names

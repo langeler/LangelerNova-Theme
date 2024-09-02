@@ -1,10 +1,10 @@
-// scss/colors/languages/advphp/_additional-elements-colors.scss
-
+// Importing core colors for reuse
 @use '../../_core-colors' as core;
 
-$advphp-argument-named-color: core.$syntax-function;
-$advphp-attribute-color: core.$syntax-function;
-$advphp-type-union-color: core.$syntax-variable;
-$advphp-constructor-promotion-color: core.$syntax-function;
-$advphp-type-mixed-color: core.$syntax-variable;
-$advphp-type-static-return-color: core.$syntax-function;
+// Advanced PHP Additional Elements Colors
+$advphp-argument-named-color: #d19a66;       // Soft orange for named arguments
+$advphp-attribute-color: #e5c07b;            // Warm yellow for attributes
+$advphp-type-union-color: #56b6c2;           // Cyan for union types
+$advphp-constructor-promotion-color: #e06c75; // Soft red for constructor promotion
+$advphp-type-mixed-color: #56b6c2;           // Cyan for mixed types
+$advphp-type-static-return-color: #c678dd;   // Soft purple for static return types

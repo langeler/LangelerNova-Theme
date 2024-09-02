@@ -1,7 +1,7 @@
-// scss/colors/languages/advphp/_keywords-colors.scss
+// Importing core colors for reuse
+@use '../..//_core-colors' as core;
 
-@use '../../_core-colors' as core;
-
-$advphp-keyword-class-color: core.$syntax-function;
-$advphp-keyword-function-color: core.$syntax-function;
-$advphp-keyword-new-color: core.$syntax-function;
+// Advanced PHP Keywords Colors
+$advphp-keyword-class-color: #c678dd;    // Soft purple for 'class' keyword
+$advphp-keyword-function-color: #c678dd; // Soft purple for 'function' keyword
+$advphp-keyword-new-color: #c678dd;      // Soft purple for 'new' keyword

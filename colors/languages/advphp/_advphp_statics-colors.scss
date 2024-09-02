@@ -1,15 +1,15 @@
-// scss/colors/languages/advphp/_statics-colors.scss
-
+// Importing core colors for reuse
 @use '../../_core-colors' as core;
 
-$advphp-static-condition-color: core.$syntax-function;
-$advphp-static-processor-color: core.$syntax-function;
-$advphp-static-declaration-color: core.$syntax-function;
-$advphp-static-import-color: core.$syntax-function;
-$advphp-static-constant-color: core.$syntax-variable;
-$advphp-static-wordOperator-color: core.$syntax-operator;
-$advphp-static-keyword-color: core.$syntax-function;
-$advphp-static-property-color: core.$syntax-function;
-$advphp-static-method-color: core.$syntax-function;
-$advphp-static-variable-color: core.$syntax-variable;
-$advphp-static-binding-color: core.$syntax-operator;
+// Advanced PHP Statics Colors
+$advphp-static-condition-color: #c678dd;  // Soft purple for static conditions
+$advphp-static-processor-color: #c678dd;  // Soft purple for static processors
+$advphp-static-declaration-color: #c678dd; // Soft purple for static declarations
+$advphp-static-import-color: #c678dd;      // Soft purple for static imports
+$advphp-static-constant-color: #56b6c2;    // Cyan for static constants
+$advphp-static-wordOperator-color: #d19a66; // Soft orange for static word operators
+$advphp-static-keyword-color: #c678dd;     // Soft purple for static keywords
+$advphp-static-property-color: #c678dd;    // Soft purple for static properties
+$advphp-static-method-color: #c678dd;      // Soft purple for static methods
+$advphp-static-variable-color: #56b6c2;    // Cyan for static variables
+$advphp-static-binding-color: #d19a66;     // Soft orange for static bindings

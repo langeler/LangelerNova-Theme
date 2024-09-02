@@ -1,5 +1,5 @@
-// scss/colors/languages/advphp/_curl-colors.scss
-
+// Importing core colors for reuse
 @use '../../_core-colors' as core;
 
-$advphp-curl-keywords-color: core.$syntax-function;
+// Advanced PHP cURL Keywords Color
+$advphp-curl-keywords-color: #c678dd;  // Soft purple for cURL keywords

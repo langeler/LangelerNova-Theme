@@ -1,12 +1,12 @@
-// scss/colors/languages/advphp/_syntax-colors.scss
-
+// Importing core colors for reuse
 @use '../../_core-colors' as core;
 
-$advphp-operator-color: core.$syntax-operator;
-$advphp-bracket-color: core.$syntax-operator;
-$advphp-delimiter-color: core.$syntax-operator;
-$advphp-semicolon-color: core.$syntax-operator;
-$advphp-operator-arrow-color: core.$syntax-operator;
-$advphp-operator-nullsafe-color: core.$syntax-operator;
-$advphp-operator-arithmetic-color: core.$syntax-operator;
-$advphp-operator-comparison-color: core.$syntax-operator;
+// Advanced PHP Syntax Colors
+$advphp-operator-color: #d19a66;            // Soft orange for general operators
+$advphp-bracket-color: #d19a66;             // Soft orange for brackets
+$advphp-delimiter-color: #d19a66;           // Soft orange for delimiters
+$advphp-semicolon-color: #d19a66;           // Soft orange for semicolons
+$advphp-operator-arrow-color: #d19a66;      // Soft orange for arrow operators
+$advphp-operator-nullsafe-color: #d19a66;   // Soft orange for nullsafe operators
+$advphp-operator-arithmetic-color: #d19a66; // Soft orange for arithmetic operators
+$advphp-operator-comparison-color: #d19a66; // Soft orange for comparison operators

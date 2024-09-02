@@ -1,6 +1,6 @@
-// scss/colors/languages/advphp/_magic-constants-colors.scss
-
+// Importing core colors for reuse
 @use '../../_core-colors' as core;
 
-$advphp-constant-magic-color: core.$syntax-function;
-$advphp-constant-class-color: core.$syntax-function;
+// Advanced PHP Magic Constants Colors
+$advphp-constant-magic-color: #c678dd;  // Soft purple for magic constants
+$advphp-constant-class-color: #c678dd;  // Soft purple for class constants
