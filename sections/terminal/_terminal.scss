@@ -1,67 +1,69 @@
-// _terminal.scss
-@use '../../colors/terminal/_terminal-colors' as colors;
+// scss/sections/terminal/_terminal.scss
 
-// Terminal styling
+@use '../../colors/terminal/_terminal-colors' as terminal;
+
+// Terminal Styling
 terminal.black {
-	color: colors.$term-black;
+  color: terminal.$terminal-black;
 }
 
 terminal.red {
-	color: colors.$term-red;
+  color: terminal.$terminal-red;
 }
 
 terminal.green {
-	color: colors.$term-green;
+  color: terminal.$terminal-green;
 }
 
 terminal.yellow {
-	color: colors.$term-yellow;
+  color: terminal.$terminal-yellow;
 }
 
 terminal.blue {
-	color: colors.$term-blue;
+  color: terminal.$terminal-blue;
 }
 
 terminal.magenta {
-	color: colors.$term-magenta;
+  color: terminal.$terminal-magenta;
 }
 
 terminal.cyan {
-	color: colors.$term-cyan;
+  color: terminal.$terminal-cyan;
 }
 
 terminal.white {
-	color: colors.$term-white;
+  color: terminal.$terminal-white;
 }
 
+// Bright ANSI Colors
 terminal.bright-black {
-	color: colors.$term-bright-black;
+  color: terminal.$terminal-bright-black;
 }
 
 terminal.bright-red {
-	color: colors.$term-bright-red;
+  color: terminal.$terminal-bright-red;
 }
 
 terminal.bright-green {
-	color: colors.$term-bright-green;
+  color: terminal.$terminal-bright-green;
 }
 
 terminal.bright-yellow {
-	color: colors.$term-bright-yellow;
+  color: terminal.$terminal-bright-yellow;
 }
 
 terminal.bright-blue {
-	color: colors.$term-bright-blue;
+  color: terminal.$terminal-bright-blue;
 }
 
 terminal.bright-magenta {
-	color: colors.$term-bright-magenta;
+  color: terminal.$terminal-bright-magenta;
 }
 
 terminal.bright-cyan {
-	color: colors.$term-bright-cyan;
+  color: terminal.$terminal-bright-cyan;
 }
 
 terminal.bright-white {
-	color: colors.$term-bright-white;
+  color: terminal.$terminal-bright-white;
 }

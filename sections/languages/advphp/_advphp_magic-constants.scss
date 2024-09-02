@@ -1,0 +1,11 @@
+// scss/sections/languages/advphp/_magic-constants.scss
+
+@use '../../../colors/languages/advphp/_advphp_magic-constants-colors' as advphp-syntax;
+
+advphp.constant.magic {
+  color: advphp-syntax.$advphp-constant-magic-color;
+}
+
+advphp.constant.class {
+  color: advphp-syntax.$advphp-constant-class-color;
+}

@@ -1,0 +1,14 @@
+// Importing core colors for reuse
+@use '../_core-colors' as core;
+
+// Markup Colors
+$markup-color: #e06c75;              // Soft red for general markup elements
+$markup-heading-color: #61afef;      // Light blue for headings
+$markup-line-color: #98c379;         // Soft green for line elements
+$markup-bold-color: #e5c07b;         // Warm yellow for bold text
+$markup-italic-color: #c678dd;       // Soft purple for italic text
+$markup-strikethrough-color: #d19a66; // Soft orange for strikethrough text
+$markup-list-color: #61afef;         // Light blue for lists
+$markup-list-item-color: #98c379;    // Soft green for list items
+$markup-code-color: #c678dd;         // Soft purple for code within markup
+$markup-link-color: #56b6c2;         // Cyan for links

@@ -1,0 +1,43 @@
+// scss/sections/syntax/_definitions.scss
+
+@use '../../colors/syntax/_definitions-colors' as syntax;
+
+definition.type {
+  color: syntax.$definition-type-color;
+}
+
+definition.class {
+  color: syntax.$definition-class-color;
+}
+
+definition.package {
+  color: syntax.$definition-package-color;
+}
+
+definition.protocol {
+  color: syntax.$definition-protocol-color;
+}
+
+definition.enum {
+  color: syntax.$definition-enum-color;
+}
+
+definition.union {
+  color: syntax.$definition-union-color;
+}
+
+definition.struct {
+  color: syntax.$definition-struct-color;
+}
+
+definition.property {
+  color: syntax.$definition-property-color;
+}
+
+definition.function {
+  color: syntax.$definition-function-color;
+}
+
+definition.method {
+  color: syntax.$definition-method-color;
+}

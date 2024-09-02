@@ -1,0 +1,9 @@
+// scss/colors/languages/advphp/_strings-colors.scss
+
+@use '../../_core-colors' as core;
+
+$advphp-string-color: core.$syntax-string;
+$advphp-value-string-color: core.$syntax-string;
+$advphp-string-doubleQuote-color: core.$syntax-string;
+$advphp-string-singleQuote-color: core.$syntax-string;
+$advphp-string-backTic-color: core.$syntax-string;

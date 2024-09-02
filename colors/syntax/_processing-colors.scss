@@ -1,0 +1,5 @@
+// Importing core colors for reuse
+@use '../_core-colors' as core;
+
+// Processing Colors
+$processing-color: #d19a66; // Soft orange for processing keywords (e.g., operators, control flow keywords like `if`, `else`)

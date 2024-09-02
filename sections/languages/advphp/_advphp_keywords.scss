@@ -1,0 +1,15 @@
+// scss/sections/languages/advphp/_keywords.scss
+
+@use '../../../colors/languages/advphp/_advphp_keywords-colors' as advphp-syntax;
+
+advphp.keyword.class {
+  color: advphp-syntax.$advphp-keyword-class-color;
+}
+
+advphp.keyword.function {
+  color: advphp-syntax.$advphp-keyword-function-color;
+}
+
+advphp.keyword.new {
+  color: advphp-syntax.$advphp-keyword-new-color;
+}

@@ -1,0 +1,10 @@
+// Importing core colors for reuse
+@use '../_core-colors' as core;
+
+// Keyword Colors
+$keyword-color: #c678dd;              // Soft purple for general keywords
+$keyword-construct-color: #56b6c2;    // Cyan for constructs like class, interface
+$keyword-condition-color: #61afef;    // Light blue for conditional keywords like if, else
+$keyword-modifier-color: #e06c75;     // Soft red for modifiers like public, private
+$keyword-operator-color: #d19a66;     // Soft orange for operators like +, -, *
+$keyword-self-color: #98c379;         // Soft green for self-reference keywords like this, self

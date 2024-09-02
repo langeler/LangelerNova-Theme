@@ -1,0 +1,10 @@
+// scss/colors/languages/advphp/_namespace-colors.scss
+
+@use '../../_core-colors' as core;
+
+$advphp-namespace-color: core.$syntax-function;
+$advphp-useNamespace-color: core.$syntax-function;
+$advphp-asNamespace-color: core.$syntax-function;
+$advphp-definition-class-color: core.$syntax-function;
+$advphp-definition-interface-color: core.$syntax-function;
+$advphp-definition-trait-color: core.$syntax-function;

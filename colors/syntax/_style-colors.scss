@@ -1,0 +1,19 @@
+// Importing core colors for reuse
+@use '../_core-colors' as core;
+
+// Style Colors
+$style-color: #61afef;                     // Light blue for functions
+$style-at-color: #c678dd;                  // Soft purple for @-rules
+$style-selector-color: #d19a66;            // Soft orange for selectors
+$style-selector-element-color: #61afef;    // Light blue for element selectors
+$style-selector-identifier-id-color: #e06c75; // Soft red for ID selectors
+$style-selector-identifier-class-color: #e5c07b; // Warm yellow for class selectors
+$style-selector-pseudoclass-color: #c678dd; // Soft purple for pseudo-classes
+$style-selector-pseudoelement-color: #c678dd; // Soft purple for pseudo-elements
+$style-attribute-color: #d19a66;           // Soft orange for attributes
+$style-attribute-name-color: #e5c07b;      // Warm yellow for attribute names
+$style-value-color: #98c379;               // Soft green for values
+$style-value-number-color: #e06c75;        // Soft red for numbers
+$style-value-color-named-color: #61afef;   // Light blue for named colors
+$style-value-color-hex-color: #d19a66;     // Soft orange for hex colors
+$style-value-keyword-color: #c678dd;       // Soft purple for keywords

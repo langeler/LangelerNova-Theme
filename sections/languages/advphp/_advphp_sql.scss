@@ -1,0 +1,7 @@
+// scss/sections/languages/advphp/_sql.scss
+
+@use '../../../colors/languages/advphp/_advphp_sql-colors' as advphp-syntax;
+
+advphp.sql.keywords {
+  color: advphp-syntax.$advphp-sql-keywords-color;
+}

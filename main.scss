@@ -1,11 +1,96 @@
-// main.scss
+// scss/main.scss
 
-// Importing interface sections
+// Import core color definitions
+@use 'colors/_core-colors';
+
+// Import interface-specific color files
+@use 'colors/interface/_base-colors';
+@use 'colors/interface/_button-colors';
+@use 'colors/interface/_textfield-colors';
+@use 'colors/interface/_document-colors';
+@use 'colors/interface/_gutter-colors';
+
+// Import terminal color definitions
+@use 'colors/terminal/_terminal-colors';
+
+// Import syntax color files
+@use 'colors/syntax/_keywords-colors';
+@use 'colors/syntax/_comments-colors';
+@use 'colors/syntax/_processing-colors';
+@use 'colors/syntax/_declarations-colors';
+@use 'colors/syntax/_brackets-colors';
+@use 'colors/syntax/_operators-colors';
+@use 'colors/syntax/_invalid-colors';
+@use 'colors/syntax/_values-colors';
+@use 'colors/syntax/_strings-colors';
+@use 'colors/syntax/_regex-colors';
+@use 'colors/syntax/_cdata-colors';
+@use 'colors/syntax/_identifiers-colors';
+@use 'colors/syntax/_definitions-colors';
+@use 'colors/syntax/_tags-colors';
+@use 'colors/syntax/_style-colors';
+@use 'colors/syntax/_markup-colors';
+
+// Import interface-specific section files
 @use 'sections/interface/_base';
 @use 'sections/interface/_buttons';
 @use 'sections/interface/_textfields';
 @use 'sections/interface/_document';
 @use 'sections/interface/_gutter';
 
-// Importing terminal sections
+// Import terminal section file
 @use 'sections/terminal/_terminal';
+
+// Import syntax-specific section files
+@use 'sections/syntax/_keywords';
+@use 'sections/syntax/_comments';
+@use 'sections/syntax/_processing';
+@use 'sections/syntax/_declarations';
+@use 'sections/syntax/_brackets';
+@use 'sections/syntax/_operators';
+@use 'sections/syntax/_invalid';
+@use 'sections/syntax/_values';
+@use 'sections/syntax/_strings';
+@use 'sections/syntax/_regex';
+@use 'sections/syntax/_cdata';
+@use 'sections/syntax/_identifiers';
+@use 'sections/syntax/_definitions';
+@use 'sections/syntax/_tags';
+@use 'sections/syntax/_style';
+@use 'sections/syntax/_markup';
+
+// Import language-specific color files for Advanced PHP
+@use 'colors/languages/advphp/_advphp_comments-colors';
+@use 'colors/languages/advphp/_advphp_statics-colors';
+@use 'colors/languages/advphp/_advphp_wordpress-colors';
+@use 'colors/languages/advphp/_advphp_curl-colors';
+@use 'colors/languages/advphp/_advphp_sql-colors';
+@use 'colors/languages/advphp/_advphp_syntax-colors';
+@use 'colors/languages/advphp/_advphp_variables-colors';
+@use 'colors/languages/advphp/_advphp_functions-colors';
+@use 'colors/languages/advphp/_advphp_objects-colors';
+@use 'colors/languages/advphp/_advphp_namespace-colors';
+@use 'colors/languages/advphp/_advphp_strings-colors';
+@use 'colors/languages/advphp/_advphp_control-structures-colors';
+@use 'colors/languages/advphp/_advphp_error-handling-colors';
+@use 'colors/languages/advphp/_advphp_magic-constants-colors';
+@use 'colors/languages/advphp/_advphp_keywords-colors';
+@use 'colors/languages/advphp/_additional-elements-colors';
+
+// Import language-specific section files for Advanced PHP
+@use 'sections/languages/advphp/_advphp_comments';
+@use 'sections/languages/advphp/_advphp_statics';
+@use 'sections/languages/advphp/_advphp_wordpress';
+@use 'sections/languages/advphp/_advphp_curl';
+@use 'sections/languages/advphp/_advphp_sql';
+@use 'sections/languages/advphp/_advphp_syntax';
+@use 'sections/languages/advphp/_advphp_variables';
+@use 'sections/languages/advphp/_advphp_functions';
+@use 'sections/languages/advphp/_advphp_objects';
+@use 'sections/languages/advphp/_advphp_namespace';
+@use 'sections/languages/advphp/_advphp_strings';
+@use 'sections/languages/advphp/_advphp_control-structures';
+@use 'sections/languages/advphp/_advphp_error-handling';
+@use 'sections/languages/advphp/_advphp_magic-constants';
+@use 'sections/languages/advphp/_advphp_keywords';
+@use 'sections/languages/advphp/_additional-elements';

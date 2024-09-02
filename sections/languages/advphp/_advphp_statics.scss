@@ -1,0 +1,47 @@
+// scss/sections/languages/advphp/_statics.scss
+
+@use '../../../colors/languages/advphp/_advphp_statics-colors' as advphp-syntax;
+
+advphp.static.condition {
+  color: advphp-syntax.$advphp-static-condition-color;
+}
+
+advphp.static.processor {
+  color: advphp-syntax.$advphp-static-processor-color;
+}
+
+advphp.static.declaration {
+  color: advphp-syntax.$advphp-static-declaration-color;
+}
+
+advphp.static.import {
+  color: advphp-syntax.$advphp-static-import-color;
+}
+
+advphp.static.constant {
+  color: advphp-syntax.$advphp-static-constant-color;
+}
+
+advphp.static.wordOperator {
+  color: advphp-syntax.$advphp-static-wordOperator-color;
+}
+
+advphp.static.keyword {
+  color: advphp-syntax.$advphp-static-keyword-color;
+}
+
+advphp.static.property {
+  color: advphp-syntax.$advphp-static-property-color;
+}
+
+advphp.static.method {
+  color: advphp-syntax.$advphp-static-method-color;
+}
+
+advphp.static.variable {
+  color: advphp-syntax.$advphp-static-variable-color;
+}
+
+advphp.static.binding {
+  color: advphp-syntax.$advphp-static-binding-color;
+}

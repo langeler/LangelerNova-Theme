@@ -1,0 +1,7 @@
+// scss/sections/syntax/_declarations.scss
+
+@use '../../colors/syntax/_declarations-colors' as syntax;
+
+declaration {
+  color: syntax.$declaration-color;
+}

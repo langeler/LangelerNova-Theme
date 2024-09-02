@@ -1,0 +1,12 @@
+// scss/colors/languages/advphp/_syntax-colors.scss
+
+@use '../../_core-colors' as core;
+
+$advphp-operator-color: core.$syntax-operator;
+$advphp-bracket-color: core.$syntax-operator;
+$advphp-delimiter-color: core.$syntax-operator;
+$advphp-semicolon-color: core.$syntax-operator;
+$advphp-operator-arrow-color: core.$syntax-operator;
+$advphp-operator-nullsafe-color: core.$syntax-operator;
+$advphp-operator-arithmetic-color: core.$syntax-operator;
+$advphp-operator-comparison-color: core.$syntax-operator;

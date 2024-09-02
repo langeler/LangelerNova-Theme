@@ -1,0 +1,8 @@
+// scss/colors/languages/advphp/_control-structures-colors.scss
+
+@use '../../_core-colors' as core;
+
+$advphp-control-if-color: core.$syntax-function;
+$advphp-control-else-color: core.$syntax-function;
+$advphp-control-elseif-color: core.$syntax-function;
+$advphp-control-match-color: core.$syntax-function;

@@ -1,0 +1,7 @@
+// scss/sections/syntax/_brackets.scss
+
+@use '../../colors/syntax/_brackets-colors' as syntax;
+
+bracket {
+  color: syntax.$bracket-color;
+}

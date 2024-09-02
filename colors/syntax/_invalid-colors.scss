@@ -1,0 +1,5 @@
+// Importing core colors for reuse
+@use '../_core-colors' as core;
+
+// Invalid Colors
+$invalid-color: #f44747; // Bright red for invalid syntax or errors

@@ -1,11 +1,13 @@
-// _button-colors.scss
-@use '../_core-colors' as colors;
+// scss/colors/interface/_button-colors.scss
 
-// Button-specific colors
-$btn-text: colors.$light-grey;
-$btn-bg: colors.$light-black;
-$btn-border: colors.$dark-border;
-$btn-disabled-bg: colors.$dark-grey;
-$btn-hover-bg: lighten(colors.$light-black, 5%);
-$btn-selected-bg: colors.$lighter-black;
-$btn-hover-selected-bg: lighten(colors.$lighter-black, 5%);
+@use '../_core-colors' as core;
+
+// Button Colors
+$button-bg: core.$dark-bg !default;
+$button-fg: core.$primary-fg !default;
+$button-border: core.$border-color !default;
+
+$button-highlighted-bg: core.$accent-color !default;
+$button-selected-bg: core.$accent-color !default;
+$button-disabled-bg: core.$secondary-fg !default;
+$button-disabled-fg: core.$light-bg !default;

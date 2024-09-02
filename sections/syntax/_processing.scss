@@ -1,0 +1,7 @@
+// scss/sections/syntax/_processing.scss
+
+@use '../../colors/syntax/_processing-colors' as syntax;
+
+processing {
+  color: syntax.$processing-color;
+}

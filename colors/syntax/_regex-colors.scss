@@ -1,0 +1,6 @@
+// Importing core colors for reuse
+@use '../_core-colors' as core;
+
+// Regex Colors
+$regex-color: #56b6c2;             // Cyan for regex patterns
+$regex-escaped-color: lighten(#56b6c2, 10%); // Lighter cyan for escaped characters in regex patterns

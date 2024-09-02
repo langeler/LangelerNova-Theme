@@ -1,0 +1,27 @@
+// scss/sections/languages/advphp/_namespace.scss
+
+@use '../../../colors/languages/advphp/_advphp_namespace-colors' as advphp-syntax;
+
+advphp.definition.namespace {
+  color: advphp-syntax.$advphp-namespace-color;
+}
+
+advphp.definition.useNamespace {
+  color: advphp-syntax.$advphp-useNamespace-color;
+}
+
+advphp.definition.asNamespace {
+  color: advphp-syntax.$advphp-asNamespace-color;
+}
+
+advphp.definition.class {
+  color: advphp-syntax.$advphp-definition-class-color;
+}
+
+advphp.definition.interface {
+  color: advphp-syntax.$advphp-definition-interface-color;
+}
+
+advphp.definition.trait {
+  color: advphp-syntax.$advphp-definition-trait-color;
+}

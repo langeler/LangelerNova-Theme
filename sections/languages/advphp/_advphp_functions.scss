@@ -1,0 +1,27 @@
+// scss/sections/languages/advphp/_functions.scss
+
+@use '../../../colors/languages/advphp/_advphp_functions-colors' as advphp-syntax;
+
+advphp.identifier.function.keyword {
+  color: advphp-syntax.$advphp-function-keyword-color;
+}
+
+advphp.identifier.function.name {
+  color: advphp-syntax.$advphp-function-name-color;
+}
+
+advphp.identifier.parameter.prefix {
+  color: advphp-syntax.$advphp-parameter-prefix-color;
+}
+
+advphp.identifier.parameter.name {
+  color: advphp-syntax.$advphp-parameter-name-color;
+}
+
+advphp.typehint {
+  color: advphp-syntax.$typehint-color;
+}
+
+advphp.typehint.return {
+  color: advphp-syntax.$typehint-return-color;
+}

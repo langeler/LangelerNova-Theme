@@ -1,0 +1,15 @@
+// scss/sections/languages/advphp/_variables.scss
+
+@use '../../../colors/languages/advphp/_advphp_variables-colors' as advphp-syntax;;
+
+advphp.identifier.variable.prefix {
+  color: advphp-syntax.$advphp-variable-prefix-color;
+}
+
+advphp.identifier.variable.name {
+  color: advphp-syntax.$advphp-variable-name-color;
+}
+
+advphp.identifier.variable.this {
+  color: advphp-syntax.$advphp-variable-this-color;
+}

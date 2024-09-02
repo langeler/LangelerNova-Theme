@@ -1,0 +1,63 @@
+// scss/sections/syntax/_style.scss
+
+@use '../../colors/syntax/_style-colors' as syntax;
+
+style {
+  color: syntax.$style-color;
+}
+
+style.at {
+  color: syntax.$style-at-color;
+}
+
+style.selector {
+  color: syntax.$style-selector-color;
+}
+
+style.selector.element {
+  color: syntax.$style-selector-element-color;
+}
+
+style.selector.identifier.id {
+  color: syntax.$style-selector-identifier-id-color;
+}
+
+style.selector.identifier.class {
+  color: syntax.$style-selector-identifier-class-color;
+}
+
+style.selector.pseudoclass {
+  color: syntax.$style-selector-pseudoclass-color;
+}
+
+style.selector.pseudoelement {
+  color: syntax.$style-selector-pseudoelement-color;
+}
+
+style.attribute {
+  color: syntax.$style-attribute-color;
+}
+
+style.attribute.name {
+  color: syntax.$style-attribute-name-color;
+}
+
+style.value {
+  color: syntax.$style-value-color;
+}
+
+style.value.number {
+  color: syntax.$style-value-number-color;
+}
+
+style.value.color {
+  color: syntax.$style-value-color-named-color;
+}
+
+style.value.color.hex {
+  color: syntax.$style-value-color-hex-color;
+}
+
+style.value.keyword {
+  color: syntax.$style-value-keyword-color;
+}

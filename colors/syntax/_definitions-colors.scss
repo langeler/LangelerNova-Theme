@@ -1,0 +1,14 @@
+// Importing core colors for reuse
+@use '../_core-colors' as core;
+
+// Non-Core Definitions
+$definition-type-color: #61afef;           // Light blue
+$definition-class-color: #c678dd;          // Soft purple
+$definition-package-color: #e5c07b;        // Warm yellow
+$definition-protocol-color: #56b6c2;       // Cyan
+$definition-enum-color: #d19a66;           // Soft orange
+$definition-union-color: #98c379;          // Soft green
+$definition-struct-color: #61afef;         // Light blue
+$definition-property-color: #d19a66;       // Soft orange
+$definition-function-color: #c678dd;       // Soft purple
+$definition-method-color: #e06c75;         // Soft red

@@ -1,0 +1,7 @@
+// scss/sections/syntax/_invalid.scss
+
+@use '../../colors/syntax/_invalid-colors' as syntax;
+
+invalid {
+  color: syntax.$invalid-color;
+}

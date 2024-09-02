@@ -1,0 +1,15 @@
+// scss/colors/languages/advphp/_statics-colors.scss
+
+@use '../../_core-colors' as core;
+
+$advphp-static-condition-color: core.$syntax-function;
+$advphp-static-processor-color: core.$syntax-function;
+$advphp-static-declaration-color: core.$syntax-function;
+$advphp-static-import-color: core.$syntax-function;
+$advphp-static-constant-color: core.$syntax-variable;
+$advphp-static-wordOperator-color: core.$syntax-operator;
+$advphp-static-keyword-color: core.$syntax-function;
+$advphp-static-property-color: core.$syntax-function;
+$advphp-static-method-color: core.$syntax-function;
+$advphp-static-variable-color: core.$syntax-variable;
+$advphp-static-binding-color: core.$syntax-operator;

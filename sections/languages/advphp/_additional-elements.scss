@@ -1,0 +1,27 @@
+// scss/sections/languages/advphp/_additional-elements.scss
+
+@use '../../../colors/languages/advphp/_additional-elements-colors' as advphp-syntax;
+
+advphp.argument.named {
+  color: advphp-syntax.$advphp-argument-named-color;
+}
+
+advphp.attribute {
+  color: advphp-syntax.$advphp-attribute-color;
+}
+
+advphp.type.union {
+  color: advphp-syntax.$advphp-type-union-color;
+}
+
+advphp.constructor.promotion {
+  color: advphp-syntax.$advphp-constructor-promotion-color;
+}
+
+advphp.type.mixed {
+  color: advphp-syntax.$advphp-type-mixed-color;
+}
+
+advphp.type.static.return {
+  color: advphp-syntax.$advphp-type-static-return-color;
+}

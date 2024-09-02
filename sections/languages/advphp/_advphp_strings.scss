@@ -1,0 +1,23 @@
+// scss/sections/languages/advphp/_strings.scss
+
+@use '../../../colors/languages/advphp/_advphp_strings-colors' as advphp-syntax;
+
+advphp.string {
+  color: advphp-syntax.$advphp-string-color;
+}
+
+advphp.value.string {
+  color: advphp-syntax.$advphp-value-string-color;
+}
+
+advphp.string.doubleQuote {
+  color: advphp-syntax.$advphp-string-doubleQuote-color;
+}
+
+advphp.string.singleQuote {
+  color: advphp-syntax.$advphp-string-singleQuote-color;
+}
+
+advphp.string.backTic {
+  color: advphp-syntax.$advphp-string-backTic-color;
+}

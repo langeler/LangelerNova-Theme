@@ -1,0 +1,5 @@
+// scss/colors/languages/advphp/_wordpress-colors.scss
+
+@use '../../_core-colors' as core;
+
+$advphp-wp-keywords-color: core.$syntax-function;

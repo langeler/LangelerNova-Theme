@@ -1,0 +1,25 @@
+// scss/sections/languages/advphp/_comments.scss
+
+@use '../../../colors/languages/advphp/_advphp_comments-colors' as advphp-syntax;
+
+advphp.comment.single,
+advphp.comment.multi,
+advphp.comment.shebang {
+  color: advphp-syntax.$advphp-comment-color;
+}
+
+advphp.comment.docblock {
+  color: advphp-syntax.$advphp-comment-color;
+}
+
+advphp.comment.docblock.tag {
+  color: advphp-syntax.$advphp-comment-docblock-tag-color;
+}
+
+advphp.comment.docblock.type {
+  color: advphp-syntax.$advphp-comment-docblock-type-color;
+}
+
+advphp.comment.docblock.var {
+  color: advphp-syntax.$advphp-comment-docblock-var-color;
+}

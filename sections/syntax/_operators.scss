@@ -1,0 +1,7 @@
+// scss/sections/syntax/_operators.scss
+
+@use '../../colors/syntax/_operators-colors' as syntax;
+
+operator {
+  color: syntax.$operator-color;
+}

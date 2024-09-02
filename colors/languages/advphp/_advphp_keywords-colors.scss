@@ -1,0 +1,7 @@
+// scss/colors/languages/advphp/_keywords-colors.scss
+
+@use '../../_core-colors' as core;
+
+$advphp-keyword-class-color: core.$syntax-function;
+$advphp-keyword-function-color: core.$syntax-function;
+$advphp-keyword-new-color: core.$syntax-function;

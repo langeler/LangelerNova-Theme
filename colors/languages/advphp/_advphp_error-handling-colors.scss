@@ -1,0 +1,8 @@
+// scss/colors/languages/advphp/_error-handling-colors.scss
+
+@use '../../_core-colors' as core;
+
+$advphp-error-try-color: core.$syntax-function;
+$advphp-error-catch-color: core.$syntax-function;
+$advphp-error-throw-color: core.$syntax-function;
+$advphp-expression-throw-color: core.$syntax-function;

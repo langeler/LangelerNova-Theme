@@ -1,0 +1,35 @@
+// scss/sections/languages/advphp/_syntax.scss
+
+@use '../../../colors/languages/advphp/_advphp_syntax-colors' as advphp-syntax;;
+
+advphp.operator {
+  color: advphp-syntax.$advphp-operator-color;
+}
+
+advphp.bracket {
+  color: advphp-syntax.$advphp-bracket-color;
+}
+
+advphp.delimiter {
+  color: advphp-syntax.$advphp-delimiter-color;
+}
+
+advphp.semicolon {
+  color: advphp-syntax.$advphp-semicolon-color;
+}
+
+advphp.operator.arrow {
+  color: advphp-syntax.$advphp-operator-arrow-color;
+}
+
+advphp.operator.nullsafe {
+  color: advphp-syntax.$advphp-operator-nullsafe-color;
+}
+
+advphp.operator.arithmetic {
+  color: advphp-syntax.$advphp-operator-arithmetic-color;
+}
+
+advphp.operator.comparison {
+  color: advphp-syntax.$advphp-operator-comparison-color;
+}

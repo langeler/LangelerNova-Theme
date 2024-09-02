@@ -1,0 +1,8 @@
+// Importing core colors for reuse
+@use '../_core-colors' as core;
+
+// String Colors
+$string-color: #98c379;             // Soft green for general strings
+$string-key-color: #e5c07b;         // Warm yellow for string keys (e.g., keys in associative arrays or objects)
+$string-template-color: #c678dd;    // Soft purple for template strings (e.g., backticks in JavaScript, template literals)
+$string-template-value-color: #61afef; // Light blue for embedded expressions within template strings (e.g., ${expression})

@@ -1,0 +1,19 @@
+// scss/sections/languages/advphp/_error-handling.scss
+
+@use '../../../colors/languages/advphp/_advphp_error-handling-colors' as advphp-syntax;
+
+advphp.error.try {
+  color: advphp-syntax.$advphp-error-try-color;
+}
+
+advphp.error.catch {
+  color: advphp-syntax.$advphp-error-catch-color;
+}
+
+advphp.error.throw {
+  color: advphp-syntax.$advphp-error-throw-color;
+}
+
+advphp.expression.throw {
+  color: advphp-syntax.$advphp-expression-throw-color;
+}

@@ -1,0 +1,9 @@
+// Importing core colors for reuse
+@use '../_core-colors' as core;
+
+// Tag Colors
+$tag-color: #e06c75;                     // Soft red for tags (e.g., HTML or XML tags)
+$tag-framework-color: #61afef;           // Light blue for framework-specific tags (e.g., Angular, React)
+$tag-attribute-color: #d19a66;           // Soft orange for tag attributes (e.g., class, id)
+$tag-attribute-name-color: #e5c07b;      // Warm yellow for attribute names (e.g., href, src)
+$tag-attribute-value-color: #98c379;     // Soft green for attribute values (e.g., "/index.html", "my-class")

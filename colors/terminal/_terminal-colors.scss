@@ -1,22 +1,21 @@
-// _terminal-colors.scss
-@use '../_core-colors' as colors;
+// scss/colors/terminal/_terminal-colors.scss
 
-// Terminal ANSI colors
-$term-black: colors.$black;               // Black
-$term-red: #ff0000;                // Red
-$term-green: #00ff00;              // Green
-$term-yellow: #ffff00;             // Yellow
-$term-blue: #0000ff;               // Blue
-$term-magenta: #ff00ff;            // Magenta
-$term-cyan: #00ffff;               // Cyan
-$term-white: colors.$light-grey;          // White
+@use '../_core-colors' as core;
 
-// Bright ANSI colors
-$term-bright-black: #555555;       // Bright black
-$term-bright-red: #ff5555;         // Bright red
-$term-bright-green: #55ff55;       // Bright green
-$term-bright-yellow: #ffff55;      // Bright yellow
-$term-bright-blue: #5555ff;        // Bright blue
-$term-bright-magenta: #ff55ff;     // Bright magenta
-$term-bright-cyan: #55ffff;        // Bright cyan
-$term-bright-white: colors.$white;        // Bright white
+// 16 Standard ANSI Colors
+$terminal-black: #000000 !default;
+$terminal-red: #cd3131 !default;
+$terminal-green: #0dbc79 !default;
+$terminal-yellow: #e5e510 !default;
+$terminal-blue: #2472c8 !default;
+$terminal-magenta: #bc3fbc !default;
+$terminal-cyan: #11a8cd !default;
+$terminal-white: #e5e5e5 !default;
+$terminal-bright-black: #666666 !default;
+$terminal-bright-red: #f14c4c !default;
+$terminal-bright-green: #23d18b !default;
+$terminal-bright-yellow: #f5f543 !default;
+$terminal-bright-blue: #3b8eea !default;
+$terminal-bright-magenta: #d670d6 !default;
+$terminal-bright-cyan: #29b8db !default;
+$terminal-bright-white: #e5e5e5 !default;

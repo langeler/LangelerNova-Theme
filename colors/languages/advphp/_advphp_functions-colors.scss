@@ -1,0 +1,10 @@
+// scss/colors/languages/advphp/_functions-colors.scss
+
+@use '../../_core-colors' as core;
+
+$advphp-function-keyword-color: core.$syntax-function;
+$advphp-function-name-color: core.$syntax-function;
+$advphp-parameter-prefix-color: core.$syntax-variable;
+$advphp-parameter-name-color: core.$syntax-variable;
+$typehint-color: core.$syntax-variable;
+$typehint-return-color: core.$syntax-variable;

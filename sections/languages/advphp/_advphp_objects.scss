@@ -1,0 +1,11 @@
+// scss/sections/languages/advphp/_objects.scss
+
+@use '../../../colors/languages/advphp/_advphp_objects-colors' as advphp-syntax;
+
+advphp.identifier.object.name {
+  color: advphp-syntax.$advphp-object-name-color;
+}
+
+advphp.identifier.class {
+  color: advphp-syntax.$advphp-class-color;
+}

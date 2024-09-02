@@ -1,0 +1,7 @@
+// scss/sections/syntax/_cdata.scss
+
+@use '../../colors/syntax/_cdata-colors' as syntax;
+
+cdata {
+  color: syntax.$cdata-color;
+}

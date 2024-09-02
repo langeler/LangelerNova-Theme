@@ -1,0 +1,7 @@
+// scss/colors/languages/advphp/_variables-colors.scss
+
+@use '../../_core-colors' as core;
+
+$advphp-variable-prefix-color: core.$syntax-variable;
+$advphp-variable-name-color: core.$syntax-variable;
+$advphp-variable-this-color: core.$syntax-variable;

@@ -1,13 +1,18 @@
-// _textfields.scss
-@use '../../colors/interface/_textfield-colors' as colors;
+// scss/sections/interface/_textfields.scss
 
-// Textfield styling
+@use '../../colors/interface/_textfield-colors' as textfield;
+
 meta.textfield {
-	background-color: colors.$tf-bg;
-	border-color: colors.$tf-border;
+  background-color: textfield.$textfield-bg;
+  color: textfield.$textfield-fg;
+  border-color: textfield.$textfield-border;
 }
 
 meta.textfield.active {
-	background-color: colors.$tf-bg;
-	border-color: colors.$tf-border;
+  background-color: textfield.$textfield-active-bg;
+  border-color: textfield.$textfield-active-border;
+}
+
+meta.document.textfield {
+  // Styles specific to document textfields can be added here if needed
 }

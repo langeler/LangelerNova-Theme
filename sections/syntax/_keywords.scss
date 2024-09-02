@@ -1,0 +1,27 @@
+// scss/sections/syntax/_keywords.scss
+
+@use '../../colors/syntax/_keywords-colors' as syntax;
+
+keyword {
+  color: syntax.$keyword-color;
+}
+
+keyword.construct {
+  color: syntax.$keyword-construct-color;
+}
+
+keyword.condition {
+  color: syntax.$keyword-condition-color;
+}
+
+keyword.modifier {
+  color: syntax.$keyword-modifier-color;
+}
+
+keyword.operator {
+  color: syntax.$keyword-operator-color;
+}
+
+keyword.self {
+  color: syntax.$keyword-self-color;
+}

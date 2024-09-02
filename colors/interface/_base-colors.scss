@@ -1,11 +1,15 @@
-// _base-colors.scss
-@use '../_core-colors' as colors;
+// scss/colors/interface/_base-colors.scss
 
-// Interface-specific colors
-$window-bg: colors.$black;
-$window-border: colors.$dark-border;
+@use '../_core-colors' as core;
 
-$titlebar-text: colors.$light-grey;
-$titlebar-bg: colors.$light-black;
-$titlebar-border: colors.$dark-border;
-$titlebar-inactive-bg: colors.$lighter-black;
+// Window and Titlebar Colors
+$window-bg: core.$dark-bg !default;
+$titlebar-bg: core.$light-bg !default;
+$titlebar-fg: core.$primary-fg !default;
+$titlebar-border: core.$border-color !default;
+$inactive-titlebar-fg: core.$secondary-fg !default;
+
+// Meta selector theme variables
+$theme-interface-style: 'dark' !default; // Default interface style (light/dark)
+$theme-vibrancy: 'none' !default;         // Default vibrancy (none/vibrant)
+$theme-accent-color: false !default;      // Accent color setting (true/false)

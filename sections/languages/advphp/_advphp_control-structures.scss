@@ -1,0 +1,19 @@
+// scss/sections/languages/advphp/_control-structures.scss
+
+@use '../../../colors/languages/advphp/_advphp_control-structures-colors' as advphp-syntax;
+
+advphp.control.if {
+  color: advphp-syntax.$advphp-control-if-color;
+}
+
+advphp.control.else {
+  color: advphp-syntax.$advphp-control-else-color;
+}
+
+advphp.control.elseif {
+  color: advphp-syntax.$advphp-control-elseif-color;
+}
+
+advphp.control.match {
+  color: advphp-syntax.$advphp-control-match-color;
+}

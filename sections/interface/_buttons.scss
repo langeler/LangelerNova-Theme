@@ -1,25 +1,30 @@
-// _buttons.scss
-@use '../../colors/interface/_button-colors' as colors;
+// scss/sections/interface/_buttons.scss
 
-// Button styling
+@use '../../colors/interface/_button-colors' as button;
+
 meta.button {
-	color: colors.$btn-text;
-	background-color: colors.$btn-bg;
-	border-color: colors.$btn-border;
+  background-color: button.$button-bg;
+  color: button.$button-fg;
+  border-color: button.$button-border;
 }
 
 meta.button.disabled {
-	background-color: colors.$btn-disabled-bg;
+  background-color: button.$button-disabled-bg;
+  color: button.$button-disabled-fg;
 }
 
 meta.button.highlighted {
-	background-color: colors.$btn-hover-bg;
+  background-color: button.$button-highlighted-bg;
 }
 
 meta.button.selected {
-	background-color: colors.$btn-selected-bg;
+  background-color: button.$button-selected-bg;
 }
 
 meta.button.highlighted.selected {
-	background-color: colors.$btn-hover-selected-bg;
+  background-color: button.$button-highlighted-bg;
+}
+
+meta.document.button {
+  // Styles specific to document buttons can be added here if needed
 }

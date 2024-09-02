@@ -1,0 +1,10 @@
+// scss/colors/languages/advphp/_additional-elements-colors.scss
+
+@use '../../_core-colors' as core;
+
+$advphp-argument-named-color: core.$syntax-function;
+$advphp-attribute-color: core.$syntax-function;
+$advphp-type-union-color: core.$syntax-variable;
+$advphp-constructor-promotion-color: core.$syntax-function;
+$advphp-type-mixed-color: core.$syntax-variable;
+$advphp-type-static-return-color: core.$syntax-function;

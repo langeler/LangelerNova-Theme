@@ -1,0 +1,147 @@
+// scss/sections/interface/_syntax.scss
+
+@use '../../colors/_core-colors' as core;
+
+.keyword,
+.keyword.construct,
+.keyword.condition,
+.keyword.modifier,
+.keyword.operator,
+.keyword.self {
+  color: core.$syntax-keyword;
+}
+
+.comment {
+  color: core.$syntax-comment;
+}
+
+.processing {
+  color: core.$syntax-operator;
+}
+
+.declaration {
+  color: core.$syntax-function;
+}
+
+.bracket,
+.operator {
+  color: core.$syntax-operator;
+}
+
+.invalid {
+  color: core.$syntax-invalid;
+}
+
+.value,
+.value.boolean,
+.value.null,
+.value.number,
+.value.entity,
+.value.symbols {
+  color: core.$syntax-variable;
+}
+
+.string,
+.string.key,
+.string-template,
+.string-template.value {
+  color: core.$syntax-string;
+}
+
+.regex,
+.regex.escaped {
+  color: core.$syntax-variable;
+}
+
+.cdata {
+  color: core.$syntax-variable;
+}
+
+.identifier,
+.identifier.type,
+.identifier.type.class,
+.identifier.type.protocol,
+.identifier.type.enum,
+.identifier.type.union,
+.identifier.type.struct,
+.identifier.variable,
+.identifier.constant,
+.identifier.property,
+.identifier.decorator,
+.identifier.function,
+.identifier.method,
+.identifier.key,
+.identifier.argument {
+  color: core.$syntax-function;
+}
+
+.identifier.core,
+.identifier.core.type,
+.identifier.core.type.class,
+.identifier.core.type.protocol,
+.identifier.core.type.enum,
+.identifier.core.type.union,
+.identifier.core.type.struct,
+.identifier.core.variable,
+.identifier.core.constant,
+.identifier.core.property,
+.identifier.core.function,
+.identifier.core.method,
+.identifier.core.decorator,
+.identifier.core.key,
+.identifier.core.argument {
+  color: core.$syntax-function;
+}
+
+.definition.type,
+.definition.class,
+.definition.package,
+.definition.protocol,
+.definition.enum,
+.definition.union,
+.definition.struct,
+.definition.property,
+.definition.function,
+.definition.method {
+  color: core.$syntax-function;
+}
+
+.tag,
+.tag.framework,
+.tag.attribute,
+.tag.attribute.name,
+.tag.attribute.value {
+  color: core.$syntax-function;
+}
+
+.style,
+.style.at,
+.style.selector,
+.style.selector.element,
+.style.selector.identifier.id,
+.style.selector.identifier.class,
+.style.selector.pseudoclass,
+.style.selector.pseudoelement,
+.style.attribute,
+.style.attribute.name,
+.style.value,
+.style.value.number,
+.style.value.color,
+.style.value.color.named,
+.style.value.color.hex,
+.style.value.keyword {
+  color: core.$syntax-function;
+}
+
+.markup,
+.markup.heading,
+.markup.line,
+.markup.bold,
+.markup.italic,
+.markup.strikethrough,
+.markup.list,
+.markup.list.item,
+.markup.code,
+.markup.link {
+  color: core.$syntax-function;
+}

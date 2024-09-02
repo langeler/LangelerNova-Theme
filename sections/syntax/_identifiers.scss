@@ -1,0 +1,124 @@
+// scss/sections/syntax/_identifiers.scss
+
+@use '../../colors/syntax/_identifiers-colors' as syntax;
+
+identifier {
+  color: syntax.$identifier-color;
+}
+
+identifier.type {
+  color: syntax.$identifier-type-color;
+}
+
+identifier.type.class {
+  color: syntax.$identifier-type-class-color;
+}
+
+identifier.type.protocol {
+  color: syntax.$identifier-type-protocol-color;
+}
+
+identifier.type.enum {
+  color: syntax.$identifier-type-enum-color;
+}
+
+identifier.type.union {
+  color: syntax.$identifier-type-union-color;
+}
+
+identifier.type.struct {
+  color: syntax.$identifier-type-struct-color;
+}
+
+identifier.variable {
+  color: syntax.$identifier-variable-color;
+}
+
+identifier.constant {
+  color: syntax.$identifier-constant-color;
+}
+
+identifier.property {
+  color: syntax.$identifier-property-color;
+}
+
+identifier.decorator {
+  color: syntax.$identifier-decorator-color;
+}
+
+identifier.function {
+  color: syntax.$identifier-function-color;
+}
+
+identifier.method {
+  color: syntax.$identifier-method-color;
+}
+
+identifier.key {
+  color: syntax.$identifier-key-color;
+}
+
+identifier.argument {
+  color: syntax.$identifier-argument-color;
+}
+
+// Core Identifiers
+identifier.core {
+  color: syntax.$identifier-core-color;
+}
+
+identifier.core.type {
+  color: syntax.$identifier-core-type-color;
+}
+
+identifier.core.type.class {
+  color: syntax.$identifier-core-type-class-color;
+}
+
+identifier.core.type.protocol {
+  color: syntax.$identifier-core-type-protocol-color;
+}
+
+identifier.core.type.enum {
+  color: syntax.$identifier-core-type-enum-color;
+}
+
+identifier.core.type.union {
+  color: syntax.$identifier-core-type-union-color;
+}
+
+identifier.core.type.struct {
+  color: syntax.$identifier-core-type-struct-color;
+}
+
+identifier.core.variable {
+  color: syntax.$identifier-core-variable-color;
+}
+
+identifier.core.constant {
+  color: syntax.$identifier-core-constant-color;
+}
+
+identifier.core.property {
+  color: syntax.$identifier-core-property-color;
+}
+
+identifier.core.function {
+  color: syntax.$identifier-core-function-color;
+}
+
+identifier.core.method {
+  color: syntax.$identifier-core-method-color;
+}
+
+identifier.core.decorator {
+  color: syntax.$identifier-core-decorator-color;
+}
+
+identifier.core.key {
+  color: syntax.$identifier-core-key-color;
+}
+
+identifier.core.argument {
+  color: syntax.$identifier-core-argument-color;
+}

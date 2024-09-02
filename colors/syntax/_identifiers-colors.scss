@@ -1,0 +1,36 @@
+// Importing core colors for reuse
+@use '../_core-colors' as core;
+
+// Non-Core Identifiers
+$identifier-color: #61afef;                // Light blue for general identifiers
+$identifier-type-color: #c678dd;           // Soft purple for type identifiers
+$identifier-type-class-color: #c678dd;     // Soft purple for class types
+$identifier-type-protocol-color: #56b6c2;  // Cyan for protocol types
+$identifier-type-enum-color: #e5c07b;      // Warm yellow for enum types
+$identifier-type-union-color: #d19a66;     // Soft orange for union types
+$identifier-type-struct-color: #98c379;    // Soft green for struct types
+$identifier-variable-color: #d19a66;       // Soft orange for variables
+$identifier-constant-color: #e06c75;       // Soft red for constants
+$identifier-property-color: #61afef;       // Light blue for properties
+$identifier-decorator-color: #e5c07b;      // Warm yellow for decorators
+$identifier-function-color: #61afef;       // Light blue for functions
+$identifier-method-color: #61afef;         // Light blue for methods
+$identifier-key-color: #c678dd;            // Soft purple for keys
+$identifier-argument-color: #d19a66;       // Soft orange for arguments
+
+// Core Identifiers
+$identifier-core-color: #e06c75;                // Soft red for general core identifiers
+$identifier-core-type-color: #e06c75;           // Soft red for core type identifiers
+$identifier-core-type-class-color: #e06c75;     // Soft red for core class types
+$identifier-core-type-protocol-color: #e06c75;  // Soft red for core protocol types
+$identifier-core-type-enum-color: #e06c75;      // Soft red for core enum types
+$identifier-core-type-union-color: #e06c75;     // Soft red for core union types
+$identifier-core-type-struct-color: #e06c75;    // Soft red for core struct types
+$identifier-core-variable-color: #e06c75;       // Soft red for core variables
+$identifier-core-constant-color: #e06c75;       // Soft red for core constants
+$identifier-core-property-color: #e06c75;       // Soft red for core properties
+$identifier-core-function-color: #e06c75;       // Soft red for core functions
+$identifier-core-method-color: #e06c75;         // Soft red for core methods
+$identifier-core-decorator-color: #e06c75;      // Soft red for core decorators
+$identifier-core-key-color: #e06c75;            // Soft red for core keys
+$identifier-core-argument-color: #e06c75;       // Soft red for core arguments

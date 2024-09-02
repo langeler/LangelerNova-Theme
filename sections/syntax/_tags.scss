@@ -1,0 +1,23 @@
+// scss/sections/syntax/_tags.scss
+
+@use '../../colors/syntax/_tags-colors' as syntax;
+
+tag {
+  color: syntax.$tag-color;
+}
+
+tag.framework {
+  color: syntax.$tag-framework-color;
+}
+
+tag.attribute {
+  color: syntax.$tag-attribute-color;
+}
+
+tag.attribute.name {
+  color: syntax.$tag-attribute-name-color;
+}
+
+tag.attribute.value {
+  color: syntax.$tag-attribute-value-color;
+}

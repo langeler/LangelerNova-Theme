@@ -1,19 +1,27 @@
-// _base.scss
-@use '../../colors/interface/_base-colors' as colors;
+// scss/sections/interface/_base.scss
 
-// Window styling
-meta.window {
-	background-color: colors.$window-bg;
-	border-color: colors.$window-border;
+@use '../../colors/interface/_base-colors' as base;
+
+// Meta selectors for theme customization
+meta {
+  -theme-interface-style: base.$theme-interface-style;
+  -theme-vibrancy: base.$theme-vibrancy;
+  -theme-accent-color: base.$theme-accent-color;
 }
 
-// Titlebar styling
+meta.window {
+  background-color: base.$window-bg;
+  border-color: base.$titlebar-border;
+}
+
 meta.titlebar {
-	color: colors.$titlebar-text;
-	background-color: colors.$titlebar-bg;
-	border-color: colors.$titlebar-border;
+  color: base.$titlebar-fg;
+  background-color: base.$titlebar-bg;
+  border-color: base.$titlebar-border;
 }
 
 meta.titlebar.inactive {
-	background-color: colors.$titlebar-inactive-bg;
+  color: base.$inactive-titlebar-fg;
+  background-color: base.$titlebar-bg;
+  border-color: base.$titlebar-border;
 }

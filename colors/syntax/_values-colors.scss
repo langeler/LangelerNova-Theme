@@ -1,0 +1,10 @@
+// Importing core colors for reuse
+@use '../_core-colors' as core;
+
+// Value Colors
+$value-color: #98c379;              // Soft green for general values
+$value-boolean-color: #c678dd;      // Soft purple for boolean values (e.g., true, false)
+$value-null-color: #56b6c2;         // Cyan for null values
+$value-number-color: #e5c07b;       // Warm yellow for numbers (e.g., 123, 3.14)
+$value-entity-color: #61afef;       // Light blue for entities (e.g., special characters, entities in XML)
+$value-symbols-color: #d19a66;      // Soft orange for symbols (e.g., @, $, #)

@@ -1,0 +1,8 @@
+// scss/colors/languages/advphp/_comments-colors.scss
+
+@use '../../_core-colors' as core;
+
+$advphp-comment-color: core.$syntax-comment;
+$advphp-comment-docblock-tag-color: core.$syntax-operator;
+$advphp-comment-docblock-type-color: core.$syntax-variable;
+$advphp-comment-docblock-var-color: core.$syntax-variable;

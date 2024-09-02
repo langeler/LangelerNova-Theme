@@ -1,0 +1,27 @@
+// scss/sections/syntax/_values.scss
+
+@use '../../colors/syntax/_values-colors' as syntax;
+
+value {
+  color: syntax.$value-color;
+}
+
+value.boolean {
+  color: syntax.$value-boolean-color;
+}
+
+value.null {
+  color: syntax.$value-null-color;
+}
+
+value.number {
+  color: syntax.$value-number-color;
+}
+
+value.entity {
+  color: syntax.$value-entity-color;
+}
+
+value.symbols {
+  color: syntax.$value-symbols-color;
+}

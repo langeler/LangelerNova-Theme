@@ -1,0 +1,11 @@
+// scss/sections/syntax/_regex.scss
+
+@use '../../colors/syntax/_regex-colors' as syntax;
+
+regex {
+  color: syntax.$regex-color;
+}
+
+regex.escaped {
+  color: syntax.$regex-escaped-color;
+}

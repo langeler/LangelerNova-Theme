@@ -1,8 +1,26 @@
-// _document.scss
-@use '../../colors/interface/_document-colors' as colors;
+// scss/sections/interface/_document.scss
 
-// Document styling
+@use '../../colors/interface/_document-colors' as doc;
+
 meta.document {
-	background-color: colors.$doc-bg;
-	border-color: colors.$doc-border;
+  background-color: doc.$document-bg;
+  border-color: doc.$document-border;
+}
+
+meta.text {
+  color: doc.$document-fg;
+  background-color: doc.$document-bg;
+}
+
+meta.text.selected {
+  color: doc.$document-selected-fg;
+  background-color: doc.$document-selected-bg;
+}
+
+meta.cursor {
+  background-color: doc.$cursor-color;
+}
+
+meta.indentguide {
+  border-color: doc.$document-border;
 }

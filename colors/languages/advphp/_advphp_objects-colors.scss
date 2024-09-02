@@ -1,0 +1,6 @@
+// scss/colors/languages/advphp/_objects-colors.scss
+
+@use '../../_core-colors' as core;
+
+$advphp-object-name-color: core.$syntax-function;
+$advphp-class-color: core.$syntax-function;

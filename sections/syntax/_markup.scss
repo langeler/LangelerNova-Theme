@@ -1,0 +1,43 @@
+// scss/sections/syntax/_markup.scss
+
+@use '../../colors/syntax/_markup-colors' as syntax;
+
+markup {
+  color: syntax.$markup-color;
+}
+
+markup.heading {
+  color: syntax.$markup-heading-color;
+}
+
+markup.line {
+  color: syntax.$markup-line-color;
+}
+
+markup.bold {
+  color: syntax.$markup-bold-color;
+}
+
+markup.italic {
+  color: syntax.$markup-italic-color;
+}
+
+markup.strikethrough {
+  color: syntax.$markup-strikethrough-color;
+}
+
+markup.list {
+  color: syntax.$markup-list-color;
+}
+
+markup.list.item {
+  color: syntax.$markup-list-item-color;
+}
+
+markup.code {
+  color: syntax.$markup-code-color;
+}
+
+markup.link {
+  color: syntax.$markup-link-color;
+}

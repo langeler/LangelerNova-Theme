@@ -1,0 +1,7 @@
+// scss/sections/languages/advphp/_curl.scss
+
+@use '../../../colors/languages/advphp/_advphp_curl-colors' as advphp-syntax;
+
+advphp.curl.keywords {
+  color: advphp-syntax.$advphp-curl-keywords-color;
+}

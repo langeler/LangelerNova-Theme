@@ -1,0 +1,7 @@
+// scss/sections/syntax/_comments.scss
+
+@use '../../colors/syntax/_comments-colors' as syntax;
+
+comment {
+  color: syntax.$comment-color;
+}

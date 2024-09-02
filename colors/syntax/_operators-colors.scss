@@ -1,0 +1,5 @@
+// Importing core colors for reuse
+@use '../_core-colors' as core;
+
+// Operator Colors
+$operator-color: #d19a66; // Soft orange for operators (e.g., +, -, *, /, &&, ||)

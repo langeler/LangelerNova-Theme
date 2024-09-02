@@ -1,0 +1,19 @@
+// scss/sections/syntax/_strings.scss
+
+@use '../../colors/syntax/_strings-colors' as syntax;
+
+string {
+  color: syntax.$string-color;
+}
+
+string.key {
+  color: syntax.$string-key-color;
+}
+
+string-template {
+  color: syntax.$string-template-color;
+}
+
+string-template.value {
+  color: syntax.$string-template-value-color;
+}
