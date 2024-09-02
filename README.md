@@ -1,4 +1,48 @@
-# LangelerNova Directory Structure
+```markdown
+# LangelerNova Theme
+
+LangelerNova Theme is a custom, reusable theme designed specifically for the "Panic Nova" code editor on Mac OS X. Built with SCSS, this theme offers easy customization, maintainability, and extendibility, making it a powerful choice for developers looking to personalize their coding environment. Whether you're working with basic interface elements, terminal themes, or advanced syntax highlighting for languages like PHP, LangelerNova provides a comprehensive and structured approach to theming, ensuring a cohesive and visually appealing coding experience. 💯
+
+## Features
+
+- **Customizable Interface Elements**: Easily modify colors and styles for windows, titlebars, buttons, and more.
+- **Advanced Syntax Highlighting**: Tailored support for PHP, including Advanced PHP syntax.
+- **SCSS-Based Structure**: Built with SCSS for easy customization and maintenance.
+- **Terminal Integration**: Consistent theming across terminal elements with ANSI color codes.
+
+## Installation
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/langeler/LangelerNova-Theme.git
+   ```
+2. **Navigate to the Theme Directory**:
+   ```bash
+   cd LangelerNova-Theme
+   ```
+3. **Install the Theme in Panic Nova**:
+   - Copy the theme files to your Panic Nova theme directory.
+4. **Activate the Theme**:
+   - Open Panic Nova, go to preferences, and select the LangelerNova Theme.
+
+For detailed customization, modify the SCSS files and recompile the CSS.
+
+## Customization
+
+LangelerNova Theme is built with SCSS, making it easy to extend and customize. Here's how you can customize the theme:
+
+1. **Modify SCSS Files**:
+   - Open any of the SCSS files located in the `colors/`, `sections/`, or `languages/` directories.
+   - Make your changes to the variables or mixins as needed.
+
+2. **Recompile the CSS**:
+   - After making changes, recompile the SCSS files to CSS.
+   - Replace the existing CSS in the Panic Nova theme directory with your newly compiled CSS.
+
+3. **Preview Changes**:
+   - Open Panic Nova and see your customizations in action. Adjust as necessary to get the desired look and feel.
+
+## Directory Structure
 
 ```plaintext
 LangelerNova/
@@ -123,16 +167,47 @@ The `LangelerNova/` directory contains all the SCSS files structured into variou
 
 - **syntax/**: Contains color and style definitions for syntax highlighting, including elements like keywords, comments, strings, and more.
 
-- **languages/advphp/**: Contains specific SCSS files for Advanced PHP, defining colors and styles
+- **languages/advphp/**: Contains specific SCSS files for Advanced PHP, defining colors and styles.
 
-## Screenshot with the Advanced PHP Syntax
+## Screenshots
+
+### Screenshot with the Advanced PHP Syntax
 
 ![Screenshot with the Advanced PHP syntax](https://github.com/langeler/LangelerNova-Theme/blob/main/images/image1.png?raw=true)
 
-## Screenshot with the Regular PHP Syntax Showing Functions, Superglobals, and Various Kinds of Variables
+### Screenshot with the Regular PHP Syntax Showing Functions, Superglobals, and Various Kinds of Variables
 
 ![Screenshot with the regular PHP syntax showing functions and superglobals and various kinds of variables](https://github.com/langeler/LangelerNova-Theme/blob/main/images/image2.png?raw=true)
 
-## Screenshot with the Regular PHP Syntax Showing Classes, Namespaces, and Properties
+### Screenshot with the Regular PHP Syntax Showing Classes, Namespaces, and Properties
 
 ![Screenshot with the regular PHP syntax showing classes and namespaces](https://github.com/langeler/LangelerNova-Theme/blob/main/images/image3.png?raw=true)
+
+## Contribution
+
+We welcome contributions to the LangelerNova Theme! Whether you're fixing bugs, adding new features, or improving the documentation, your help is appreciated. Please follow these steps to contribute:
+
+1. **Fork the Repository**: Click the "Fork" button at the top right of this page to create a copy of this repository in your GitHub account.
+2. **Clone Your Fork**:
+   ```bash
+   git clone https://github.com/your-username/LangelerNova-Theme.git
+   ```
+3. **Create a New Branch**:
+   ```bash
+   git checkout -b feature-or-bugfix-branch
+   ```
+4. **Make Your Changes**: Edit the files in your branch.
+5. **Commit Your Changes**:
+   ```bash
+   git commit -m "Describe your changes"
+   ```
+6. **Push to Your Fork**:
+   ```bash
+   git push origin feature-or-bugfix-branch
+   ```
+7. **Submit a Pull Request**: Go to the original repository and submit a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+```
