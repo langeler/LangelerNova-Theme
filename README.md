@@ -102,6 +102,7 @@ LangelerNova/
 │   │   ├── _terminal.scss                   // Styles for terminal elements using ANSI color codes
 │
 ├── main.scss                                // Main SCSS file that imports all the other SCSS files
+```
 
 ## Explanation
 
@@ -124,6 +125,14 @@ The `LangelerNova/` directory contains all the SCSS files structured into variou
 
 - **languages/advphp/**: Contains specific SCSS files for Advanced PHP, defining colors and styles
 
-![Image 1](./images/image1.png)
-![Image 2](./images/image2.png)
-![Image 3](./images/image3.png)
+## Screenshot with the Advanced PHP Syntax
+
+![Screenshot with the Advanced PHP syntax](https://github.com/langeler/LangelerNova-Theme/blob/main/images/image1.png?raw=true)
+
+## Screenshot with the Regular PHP Syntax Showing Functions, Superglobals, and Various Kinds of Variables
+
+![Screenshot with the regular PHP syntax showing functions and superglobals and various kinds of variables](https://github.com/langeler/LangelerNova-Theme/blob/main/images/image2.png?raw=true)
+
+## Screenshot with the Regular PHP Syntax Showing Classes, Namespaces, and Properties
+
+![Screenshot with the regular PHP syntax showing classes and namespaces](https://github.com/langeler/LangelerNova-Theme/blob/main/images/image3.png?raw=true)
